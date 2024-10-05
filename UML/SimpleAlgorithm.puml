@@ -1,0 +1,16 @@
+@startuml SimpleAlgorithm
+start
+
+:Input two numbers (a, b);
+:Compare a and b;
+
+if (a > b?) then (yes)
+    :Max = a;
+else (no)
+    :Max = b;
+endif
+
+:Output Max;
+
+stop
+@enduml

@@ -1,0 +1,15 @@
+@startuml Test
+
+title Test Flow Chart
+
+rectangle Command
+
+folder SingleRequest {
+    rectangle Login
+    rectangle AccountNumber
+    rectangle CheckBalance
+    rectangle CheckStocks
+    rectangle Order
+}
+
+@enduml
