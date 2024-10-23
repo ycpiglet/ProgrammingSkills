@@ -1,0 +1,12 @@
+@startuml UnlueckyNumber
+start
+:Initialize an empty list;
+repeat
+  :For each digit length (1 to max digit length);
+  :Generate combinations of 4 and 13;
+  :Add to list;
+repeat while (more combinations?)
+:Sort the list;
+:Return the n-th number from the list;
+stop
+@enduml
