@@ -13,7 +13,7 @@ class CommonStack:
                 self._pop(query)
             else:
                 self._push(query)
-            self.print_stacks(query)
+            # self.print_stacks(query)
         print(f"Result: {self.result}")
         return self.result
     
